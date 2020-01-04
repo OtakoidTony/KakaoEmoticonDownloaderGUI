@@ -1,0 +1,12 @@
+C:\Users\Rojiku\source\repos\KakaoEmoticonDownloader\KakaoEmoticonDownloader\bin\Debug\KakaoEmoticonDownloader.exe.config
+C:\Users\Rojiku\source\repos\KakaoEmoticonDownloader\KakaoEmoticonDownloader\bin\Debug\KakaoEmoticonDownloader.exe
+C:\Users\Rojiku\source\repos\KakaoEmoticonDownloader\KakaoEmoticonDownloader\bin\Debug\KakaoEmoticonDownloader.pdb
+C:\Users\Rojiku\source\repos\KakaoEmoticonDownloader\KakaoEmoticonDownloader\obj\Debug\KakaoEmoticonDownloader.csprojAssemblyReference.cache
+C:\Users\Rojiku\source\repos\KakaoEmoticonDownloader\KakaoEmoticonDownloader\obj\Debug\KakaoEmoticonDownloader.Form1.resources
+C:\Users\Rojiku\source\repos\KakaoEmoticonDownloader\KakaoEmoticonDownloader\obj\Debug\KakaoEmoticonDownloader.Properties.Resources.resources
+C:\Users\Rojiku\source\repos\KakaoEmoticonDownloader\KakaoEmoticonDownloader\obj\Debug\KakaoEmoticonDownloader.csproj.GenerateResource.cache
+C:\Users\Rojiku\source\repos\KakaoEmoticonDownloader\KakaoEmoticonDownloader\obj\Debug\KakaoEmoticonDownloader.exe
+C:\Users\Rojiku\source\repos\KakaoEmoticonDownloader\KakaoEmoticonDownloader\obj\Debug\KakaoEmoticonDownloader.pdb
+C:\Users\Rojiku\source\repos\KakaoEmoticonDownloader\KakaoEmoticonDownloader\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rojiku\source\repos\KakaoEmoticonDownloader\KakaoEmoticonDownloader\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rojiku\source\repos\KakaoEmoticonDownloader\KakaoEmoticonDownloader\obj\Debug\KakaoEmoticonDownloader.csproj.CopyComplete
