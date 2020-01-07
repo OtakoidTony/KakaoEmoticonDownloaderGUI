@@ -117,4 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="textBox2.Text" xml:space="preserve">
+    <value>이 프로그램은 이미 구매한 카카오 이모티콘에 대하여 타 메신저 혹은 타사의 SNS에서 사용할 수 있게 돕기 위한 프로그램으로 이 프로그램은 절대로 상업적인 목적으로 사용될 수 없으며, 또한 구매하지 않은 이모티콘에 대한 불법적인 다운로드를 금하고 사용에 있어 모든 책임은 사용자에게 있습니다. 상단의 Download 버튼을 누르면 위 내용을 숙지한 것으로 간주됩니다.</value>
+  </data>
 </root>
