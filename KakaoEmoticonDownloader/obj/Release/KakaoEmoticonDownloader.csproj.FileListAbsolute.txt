@@ -10,3 +10,15 @@ C:\Users\Rojiku\source\repos\KakaoEmoticonDownloader\KakaoEmoticonDownloader\obj
 C:\Users\Rojiku\source\repos\KakaoEmoticonDownloader\KakaoEmoticonDownloader\obj\Release\KakaoEmoticonDownloader.csproj.CopyComplete
 C:\Users\Rojiku\source\repos\KakaoEmoticonDownloader\KakaoEmoticonDownloader\obj\Release\KakaoEmoticonDownloader.exe
 C:\Users\Rojiku\source\repos\KakaoEmoticonDownloader\KakaoEmoticonDownloader\obj\Release\KakaoEmoticonDownloader.pdb
+C:\Users\Rojiku\Documents\GitHub\KakaoEmoticonDownloaderGUI\KakaoEmoticonDownloader\bin\Release\KakaoEmoticonDownloader.exe.config
+C:\Users\Rojiku\Documents\GitHub\KakaoEmoticonDownloaderGUI\KakaoEmoticonDownloader\bin\Release\KakaoEmoticonDownloader.exe
+C:\Users\Rojiku\Documents\GitHub\KakaoEmoticonDownloaderGUI\KakaoEmoticonDownloader\bin\Release\KakaoEmoticonDownloader.pdb
+C:\Users\Rojiku\Documents\GitHub\KakaoEmoticonDownloaderGUI\KakaoEmoticonDownloader\bin\Release\Newtonsoft.Json.dll
+C:\Users\Rojiku\Documents\GitHub\KakaoEmoticonDownloaderGUI\KakaoEmoticonDownloader\bin\Release\Newtonsoft.Json.xml
+C:\Users\Rojiku\Documents\GitHub\KakaoEmoticonDownloaderGUI\KakaoEmoticonDownloader\obj\Release\KakaoEmoticonDownloader.csprojAssemblyReference.cache
+C:\Users\Rojiku\Documents\GitHub\KakaoEmoticonDownloaderGUI\KakaoEmoticonDownloader\obj\Release\KakaoEmoticonDownloader.Form1.resources
+C:\Users\Rojiku\Documents\GitHub\KakaoEmoticonDownloaderGUI\KakaoEmoticonDownloader\obj\Release\KakaoEmoticonDownloader.Properties.Resources.resources
+C:\Users\Rojiku\Documents\GitHub\KakaoEmoticonDownloaderGUI\KakaoEmoticonDownloader\obj\Release\KakaoEmoticonDownloader.csproj.GenerateResource.cache
+C:\Users\Rojiku\Documents\GitHub\KakaoEmoticonDownloaderGUI\KakaoEmoticonDownloader\obj\Release\KakaoEmoticonDownloader.csproj.CopyComplete
+C:\Users\Rojiku\Documents\GitHub\KakaoEmoticonDownloaderGUI\KakaoEmoticonDownloader\obj\Release\KakaoEmoticonDownloader.exe
+C:\Users\Rojiku\Documents\GitHub\KakaoEmoticonDownloaderGUI\KakaoEmoticonDownloader\obj\Release\KakaoEmoticonDownloader.pdb

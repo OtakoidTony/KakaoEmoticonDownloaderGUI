@@ -145,7 +145,7 @@ namespace KakaoEmoticonDownloader
                 progressBar1.Value = 0;
                 for (int i = 0; i < size; i++)
                 {
-                    DownloadRemoteImageFile(result[i], folderPath + "\\" + i.ToString() + ".png");
+                    DownloadRemoteImageFile(result[i], folderPath + "\\" + (i + 1).ToString() + ".png");
                     progressBar1.PerformStep();
                 }
             }
