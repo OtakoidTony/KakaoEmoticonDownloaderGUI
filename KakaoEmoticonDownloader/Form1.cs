@@ -29,7 +29,6 @@ namespace KakaoEmoticonDownloader
             {
                 return "Error";
             }
-
         }
 
         private string GetName(string url)
