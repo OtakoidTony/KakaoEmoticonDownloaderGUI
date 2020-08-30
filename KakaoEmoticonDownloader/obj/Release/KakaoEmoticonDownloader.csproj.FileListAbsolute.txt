@@ -22,3 +22,4 @@ C:\Users\Rojiku\Documents\GitHub\KakaoEmoticonDownloaderGUI\KakaoEmoticonDownloa
 C:\Users\Rojiku\Documents\GitHub\KakaoEmoticonDownloaderGUI\KakaoEmoticonDownloader\obj\Release\KakaoEmoticonDownloader.csproj.CopyComplete
 C:\Users\Rojiku\Documents\GitHub\KakaoEmoticonDownloaderGUI\KakaoEmoticonDownloader\obj\Release\KakaoEmoticonDownloader.exe
 C:\Users\Rojiku\Documents\GitHub\KakaoEmoticonDownloaderGUI\KakaoEmoticonDownloader\obj\Release\KakaoEmoticonDownloader.pdb
+C:\Users\Rojiku\Documents\GitHub\KakaoEmoticonDownloaderGUI\KakaoEmoticonDownloader\obj\Release\KakaoEmoticonDownloader.csproj.CoreCompileInputs.cache

@@ -14,44 +14,6 @@ namespace KakaoEmoticonDownloader
             InitializeComponent();
         }
 
-        private bool DownloadRemoteImageFile(string uri, string fileName)
-        {
-            try
-            {
-                HttpWebRequest request = (HttpWebRequest)WebRequest.Create(uri);
-                HttpWebResponse response = (HttpWebResponse)request.GetResponse();
-                bool bImage = response.ContentType.StartsWith("image",
-                    StringComparison.OrdinalIgnoreCase);
-                if ((response.StatusCode == HttpStatusCode.OK ||
-                    response.StatusCode == HttpStatusCode.Moved ||
-                    response.StatusCode == HttpStatusCode.Redirect) &&
-                    bImage)
-                {
-                    using (Stream inputStream = response.GetResponseStream())
-                    using (Stream outputStream = File.OpenWrite(fileName))
-                    {
-                        byte[] buffer = new byte[4096];
-                        int bytesRead;
-                        do
-                        {
-                            bytesRead = inputStream.Read(buffer, 0, buffer.Length);
-                            outputStream.Write(buffer, 0, bytesRead);
-                        } while (bytesRead != 0);
-                    }
-
-                    return true;
-                }
-                else
-                {
-                    return false;
-                }
-            }
-            catch(Exception ex)
-            {
-                return false;
-            }
-        }
-
         private string GetItemCode(string url)
         {
             try
@@ -62,11 +24,12 @@ namespace KakaoEmoticonDownloader
                 string html = wc.DownloadString(url);
                 string[] result = html.Split(new string[] { "item_code" }, StringSplitOptions.None);
                 return result[1].Split('\'')[1].Split('\'')[0];
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 return "Error";
             }
-            
+
         }
 
         private string GetName(string url)
@@ -80,11 +43,11 @@ namespace KakaoEmoticonDownloader
                 string[] result = html.Split(new string[] { "prefix: " }, StringSplitOptions.None);
                 return result[1].Split('\"')[1].Split('\"')[0];
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-                return "314159265358979323846";
+                return null;
             }
-            
+
         }
 
         private string[] GetThumbUrl(string jsonUrl)
@@ -112,11 +75,11 @@ namespace KakaoEmoticonDownloader
                 }
                 return JObject.Parse(responseText)["body"].ToObject<string[]>();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return new string[] { "error" };
             }
-            
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -126,7 +89,7 @@ namespace KakaoEmoticonDownloader
             string json_url = base_url + GetItemCode(input_url);
             string[] result = GetThumbUrl(json_url);
             int size = result.Length;
-            if (GetName(input_url) == "314159265358979323846")
+            if (GetName(input_url) == null)
             {
                 MessageBox.Show("에러가 발생하였습니다.");
             }
@@ -143,13 +106,17 @@ namespace KakaoEmoticonDownloader
                 progressBar1.Maximum = size;
                 progressBar1.Step = 1;
                 progressBar1.Value = 0;
-                for (int i = 0; i < size; i++)
+                using (WebClient webClient = new WebClient())
                 {
-                    DownloadRemoteImageFile(result[i], folderPath + "\\" + (i + 1).ToString() + ".png");
-                    progressBar1.PerformStep();
+                    for (int i = 0; i < size; i++)
+                    {
+                        webClient.DownloadFile(result[i], folderPath + "\\" + (i + 1).ToString() + ".png");
+                        progressBar1.PerformStep();
+                    }
                 }
+
             }
-            
+
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
